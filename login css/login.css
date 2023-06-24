@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #9053c7;
+    background: -webkit-linear-gradient(to left,#c850c0,#4158d0);  
+    background: linear-gradient(to left,#c850c0,#4158d0);
+width: 100%;
+height: 100vh;
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    min-width: 500px;
+   max-width: 900px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 177px 130px 33px 95px;
+}
+@media (max-width: 900px) {
+    img {
+   display: none;
+    }
+  }
+
+.container .email-passward{
+    position: relative;
+    bottom: 120px;
+
+   
+}
+.container .email-passward h2{
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+.container .email-passward  input{
+    display: block;
+    border: none;
+    outline:none;
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    min-width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 20px;
+    margin: 10px;
+transform: 2s;
+     
+}
+.container .email-passward  input:hover{
+    box-shadow: 10px 5px 30px rgb(52, 184, 52);
+    border:2px solid rgb(52, 184, 52);
+    
+
+}
+.container  img{
+    min-width: 25%;
+   max-width: 100%;
+   position: relative;
+   bottom: 115px;
+   right: 50px; 
+  
+  
+}
+.container img:hover{
+    transform: scale(1 , 0.8);
+       filter: grayscale(100%);
+}
+.log-link{ 
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+}
+.log-link button{
+    border: none;
+    outline: none;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+   width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+   cursor: pointer;
+
+}
+.log-link a {
+text-decoration: none;
+text-align: center;
+
+}
+.log-link a p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+.log-link a p:hover{
+    color: #57b846;
+}
